@@ -7,4 +7,4 @@ azure-functions-worker==1.17.0
 pandas
 selenium
 azure-storage-blob
-
+webdriver-manager
