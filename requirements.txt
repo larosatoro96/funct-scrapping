@@ -2,7 +2,8 @@
 # The Python Worker is managed by Azure Functions platform
 # Manually managing azure-functions-worker may cause unexpected issues
 
-azure-functions
+azure-functions==1.17.0
+azure-functions-worker==1.17.0
 pandas
 selenium
 azure-storage-blob
