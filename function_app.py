@@ -16,6 +16,7 @@ import time
 
 app = func.FunctionApp()
 
+#inicio trigger
 @app.function_name(name="http_trigger")
 @app.route(route="http_trigger", auth_level=func.AuthLevel.ANONYMOUS)
 def http_trigger(req: func.HttpRequest) -> func.HttpResponse:
